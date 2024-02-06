@@ -1,0 +1,161 @@
+@media only screen and (min-width: 390px) {
+	img {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 540px) {
+	img {
+		width: 70%;
+	}
+
+	.general-text p {
+		font-size: 2.5rem
+	}
+}
+
+@media only screen and (min-width: 640px) {
+	img {
+		width: 60%;
+	}
+
+	.general-container {
+		height: auto;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.general-background {
+		column-gap: 2rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.general-text h1 {
+		font-size: 3.3rem;
+		margin-bottom: 1rem;
+	}
+
+	.general-text p {
+		font-size: 1.5rem
+	}
+
+	.general-imagen {
+		justify-content: flex-end;
+		margin-top: 0;
+	}
+
+	.general-text input {
+		padding: 1.2rem;
+	}
+
+	.general-imagen {
+		z-index: -1;
+		margin-left: 2rem;
+	}
+}
+
+@media only screen and (min-width: 720px) {
+	img {
+		width: 55%;
+	}
+
+	.general-container {
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	img {
+		width: 60%;
+	}
+
+	.general-container {
+		height: 100%;
+		margin-left: 2rem;
+		margin-right: 2rem;
+		width: 100%;
+	}
+
+	.general-text {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.general-text h1 {
+		font-size: 3.8rem;
+	}
+
+	.general-text p {
+		font-size: 1.9rem
+	}
+
+	.general-text input {
+		padding: 2rem 1.5rem;
+	}
+
+	.button {
+		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (min-width: 912px) {
+	img {
+		width: 80%;
+	}
+
+	.general-text h1 {
+		font-size: 5.2rem;
+	}
+
+	.general-text p {
+		font-size: 2.2rem
+	}
+
+	.button {
+		font-size: 2rem;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	img {
+		width: 80%;
+	}
+
+	.general-container {
+		margin-left: 8rem;
+		margin-right: 8rem;
+	}
+
+	.general-text h1 {
+		font-size: 5.2rem;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	img {
+		width: 100%;
+	}
+
+	.general-container {
+		margin-left: 9rem;
+		margin-right: 9rem;
+	}
+
+	.general-text {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.general-text h1 {
+		font-size: 6.2rem;
+	}
+
+	.general-text p {
+		font-size: 3rem
+	}
+
+	.button {
+		font-size: 2.5rem;
+	}
+}
